@@ -1,0 +1,8 @@
+    ---
+
+    - name: Disable Windows Defender
+      win_regedit:
+        key: "HKLM:\\SOFTWARE\\Polices\\Microsoft\\Windows Defender\\real-Time Protection"
+        value: DisableRealTimeMonitoring
+        datatype: dword
+        data: 1

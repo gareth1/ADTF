@@ -1,0 +1,7 @@
+    #Domain Controller
+    windows_domain_controller_info:
+    dns_domain_name: gbctest.local
+    domain_admin_password: default_password
+    domain_admin_user: Administrator@gbctest.local
+    safe_mode_password: default_password
+    state: domain_controller

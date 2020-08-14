@@ -1,0 +1,7 @@
+# update variables for IT_Infra
+aws_region    = "us-east-2"
+key_name      = "key_name"
+win_username  = "Administrator"
+win_password  = "default_password"
+#add WAN IP in the whitelist
+ip_whitelist  = ["127.0.0.1/32"]
